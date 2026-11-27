@@ -100,7 +100,7 @@ abstract class AbstractValidator
      * @param array<string, array<string, mixed>> $values
      * @param array<string, string> $ruleSet
      */
-    public function validate(array $values, array $ruleSet, string $prefix = null): bool
+    public function validate(array $values, array $ruleSet, ?string $prefix = null): bool
     {
         // If there are no rules, there is nothing to validate
         if (empty($ruleSet)) {
