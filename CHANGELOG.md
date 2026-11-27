@@ -6,7 +6,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## 0.2.1 - 2026-11-27
-- Added PHP 8.4 and PHP 8.5 support: made implicitly nullable parameters explicitly nullable
+- Added PHP 8.4 and PHP 8.5 support: the `$prefix` parameter of `AbstractValidator::validate()` is now explicitly nullable, which removes the deprecation notice
+- Added PHP 8.4 and PHP 8.5 to the CI test matrix and quoted the PHP versions, so the `8.0` job runs on PHP 8.0
+- Updated `phpunit/phpunit` in `composer.lock` to 9.6.39
 
 ## 0.2.0 - 2024-03-01
 - Added the `min`, `greater-than`, `less-than` validation rules
