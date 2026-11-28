@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6902c7801f320b5d63f701badc0feea",
+    "content-hash": "f88e367ea260c4aa807fc3365e93a8e9",
     "packages": [
         {
             "name": "madesimple/php-arrays",

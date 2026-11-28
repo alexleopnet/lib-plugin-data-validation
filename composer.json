@@ -6,7 +6,7 @@
   "version": "0.2.1",
   "require": {
     "php": ">=7.4",
-    "madesimple/php-arrays": "^2.0"
+    "madesimple/php-arrays": "^2.0 || ^4.0"
   },
   "autoload": {
     "psr-4": {
